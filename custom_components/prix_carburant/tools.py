@@ -24,7 +24,7 @@ from .const import (
 _LOGGER = logging.getLogger(__name__)
 
 STATIONS_DATA_URL = "https://static.data.gouv.fr/resources/prix-des-carburants-en-france/20181117-111538/active-stations.csv"
-STATIONS_TARIFS_URL = "https://donnees.roulez-eco.fr/opendata/instantane"
+STATIONS_TARIFS_URL = "https://donnees.roulez-eco.fr/opendata/jour"
 
 
 class PrixCarburantTool:
